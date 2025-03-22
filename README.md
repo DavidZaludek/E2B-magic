@@ -1,3 +1,5 @@
+Demo : https://www.loom.com/share/b6e00ea4e50b4d00a8b6e5c36aff8c40?sid=05194071-d8be-4dda-8c4d-0e2de2865172
+
 # E2B-magic
 Sometimes a dream is all you need, sometimes it's just magic.
 ![rohlik drawio](https://github.com/user-attachments/assets/5f86c187-eb42-4e2e-b38c-e1c902d1026d)
