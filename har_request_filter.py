@@ -122,12 +122,12 @@ def is_relevant_api_endpoint(url, method, content_type, resource_type, response_
 
 
 # Example usage
-webpage = "www.rohlik.cz"
-har_file = "rohlik.har"  # Replace with your HAR file path
+webpage = "www.foodora.cz"
+har_file = "www.foodora.cz.har"  # Replace with your HAR file path
 
 data = extract_har_data(har_file, webpage)
 
 
 
-output_har_file = "filtered_rohlik.har"  # Specify the output HAR file path
+output_har_file =  f"filtered_{har_file}" # Specify the output HAR file path
 save_as_har(data, output_har_file)
