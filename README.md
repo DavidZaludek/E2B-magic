@@ -23,3 +23,10 @@ The bot response must always be in JSON format: { "response": "What you're doing
 Action is always code or stop. If it will be code, code will be executed in sbx. If it is kill or done, the loop stops, kill/done shows success/fail with the whole task.
 6. User gets the final python code if action was done and executes it, this will print potato prices in python table
 
+# Usage
+
+```
+pip install -r requirements.txt
+python har_request_filter.py tesco.com .\www.tesco.com.har
+python scraperGenerator.py .\filtered_www.tesco.com.har
+```
