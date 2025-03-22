@@ -1,5 +1,6 @@
 # E2B-magic
 Sometimes a dream is all you need, sometimes it's just magic.
+![rohlik drawio](https://github.com/user-attachments/assets/5f86c187-eb42-4e2e-b38c-e1c902d1026d)
 
 
 # Goal
