@@ -1,6 +1,5 @@
 Demo : https://www.loom.com/share/b6e00ea4e50b4d00a8b6e5c36aff8c40?sid=05194071-d8be-4dda-8c4d-0e2de2865172
-[chrome://newtab/ - DevTools - chrome://newtab/ - 22 March 2025 - Watch Video](https://cdn.loom.com/sessions/thumbnails/b6e00ea4e50b4d00a8b6e5c36aff8c40-1de0492fc9ce4424-full-play.gif)
-
+![Demo](https://cdn.loom.com/sessions/thumbnails/b6e00ea4e50b4d00a8b6e5c36aff8c40-1de0492fc9ce4424-full-play.gif)
 
 # E2B-magic
 Automaticaly generate python webscrapers. Input is human webbrowsing activity, output is functioning python webscraper. Uses LLMs and E2B sandbox to iteratively create the result. Zero human coding needing, create a web-scraper for anything under a minute !
