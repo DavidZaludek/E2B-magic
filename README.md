@@ -25,6 +25,8 @@ Action is always code or stop. If it will be code, code will be executed in sbx.
 
 # Usage
 
+```
 pip install -r requirements.txt
 python har_request_filter.py tesco.com .\www.tesco.com.har
 python scraperGenerator.py .\filtered_www.tesco.com.har
+```
