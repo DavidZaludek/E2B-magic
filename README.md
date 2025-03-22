@@ -30,3 +30,11 @@ pip install -r requirements.txt
 python har_request_filter.py tesco.com .\www.tesco.com.har
 python scraperGenerator.py .\filtered_www.tesco.com.har
 ```
+
+.env file
+```
+E2B_API_KEY=e2b_xxx
+OPENAI_API_KEY=sk-xxx
+GEMINI_API_KEY=AIxxx
+```
+For Gemini Key : https://aistudio.google.com/apikey
