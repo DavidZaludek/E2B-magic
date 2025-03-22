@@ -175,3 +175,4 @@ cython_debug/
 filtered*
 www.*
 *.har
+prompt*.txt

@@ -114,8 +114,11 @@ def count_tokens(messages, model="gpt-3.5-turbo"):
                 total_tokens += len(enc.encode(value))
         total_tokens += 2  # for priming/assistant start
         return total_tokens
+    
+promptCounter = 1
 
 def get_llm_response_structured(conversation, max_retries=4, wait_time=15):
+    global promptCounter
     print("Counting token...")
     input_tokens = count_tokens(conversation, "gpt-4o" if not useGemini else None)
 
@@ -135,6 +138,11 @@ def get_llm_response_structured(conversation, max_retries=4, wait_time=15):
 
         prompt = "\n\n".join(all_messages)
         prompt += "\n\nRespond only with valid JSON in this format: {\"response\": \"explanation\", \"action\": \"code/done/kill\", \"code\": \"Python code or null\"}"
+        
+        with open(f"prompt{promptCounter}.txt", "w", encoding="utf-8") as f:
+            f.write(prompt)
+
+        promptCounter += 1
 
         for attempt in range(max_retries):
             try:
