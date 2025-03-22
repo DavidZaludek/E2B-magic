@@ -7,7 +7,7 @@ Automaticaly generate python webscrapers. Input is human webbrowsing activity, o
 
 ## 🥔 Interactive Potato Price Chart
 
-[![Potato Chart Preview](https://raw.githubusercontent.com/DavidZaludek/E2B-magic/main/preview.png)](https://davidzaludek.github.io/E2B-magic/potato_plot.html)
+[![image](https://github.com/user-attachments/assets/024af283-09d7-4700-a635-e1ec45423688)](https://davidzaludek.github.io/E2B-magic/potato_plot.html)
 
 ![image](https://github.com/user-attachments/assets/982b5466-80e9-4b21-84f3-b42c3f056bd3)
 
