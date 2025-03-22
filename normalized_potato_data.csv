@@ -1,0 +1,33 @@
+retailer,name,price_per_kg,kg
+Kosik,Brambory konzumní prané,19.98,5.0
+Kosik,Brambory přílohové B,23.95,2.0
+Kosik,Brambory prané balení,24.9,1.0
+Kosik,Brambory loupané vakuové,35.96,2.5
+Kosik,Brambory loupané vakuové 2,39.9,1.0
+Kosik,Brambory krájené vakuové,45.8,0.5
+Kosik,Batáty 1 ks,69.9,1.0
+Kosik,Batáty balení,99.8,0.5
+Kosik,Batáty BIO,119.8,0.5
+Kosik,Topinambur,139.8,0.5
+WoltAlbert,Gurmánské brambory,76.77,0.65
+WoltAlbert,Brambory typ B,24.97,3.0
+WoltAlbert,Brambory typ A,24.95,2.0
+WoltAlbert,Brambory typ C,24.95,2.0
+Rohlik,1328143,18.38,5.0
+Rohlik,1350963,24.9,1.0
+Rohlik,1298785,23.95,2.0
+Rohlik,1425108,32.9,1.0
+Rohlik,1350677,59.9,1.0
+Rohlik,1416844,29.97,3.0
+Rohlik,1409777,119.9,0.5
+Rohlik,1362031,76.77,0.65
+Rohlik,1298781,24.95,2.0
+Rohlik,1459332,69.9,1.0
+FreshDirect,Russet Potato,22.8888,1.0
+FreshDirect,Organic Covington Sweet Potato,46.0088,1.0
+FreshDirect,Organic Garnet Sweet Potato,69.12880000000001,1.0
+FreshDirect,Gold Potato,34.4488,1.0
+FreshDirect,Organic Japanese Sweet Potatoes,69.12880000000001,1.0
+FreshDirect,Organic Gold Potato,57.56880000000001,1.0
+FreshDirect,Organic Purple Sweet Potatoes,184.7288,1.0
+FreshDirect,Sweet Potato Fries,115.36880000000001,1.0
