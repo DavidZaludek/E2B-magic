@@ -88,9 +88,10 @@ history = [
 lastCode = ""
 
 def printTrunc(*args, sep=' ', end='\n', file=None, flush=False):
+    maxtruncate = 600
     output = sep.join(str(arg) for arg in args) + end
-    if len(output) > 1000:
-        output = output[:1000] + '... [truncated]'
+    if len(output) > maxtruncate:
+        output = output[:maxtruncate] + '... [truncated]'
     print(output, end='', file=file, flush=flush)
 
 MAX_INPUT_TOKENS = 300_000  # safe buffer under 128k
