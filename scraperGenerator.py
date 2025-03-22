@@ -73,6 +73,8 @@ system_prompt = (
     "        final_output = final_output[:5000] + '... [truncated]'"
     ""
     "    print(final_output, end='', file=file, flush=flush)"
+    "\n\n"
+    "- Use pandas for nice final output. \n"
 
     "✅ Format example:\n"
     '{ \"response\": \"What you are doing\", \"action\": \"code/done/kill\", \"code\": \"...Python code...\" }'

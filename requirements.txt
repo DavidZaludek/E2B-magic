@@ -3,3 +3,4 @@ python-dotenv
 openai
 google-genai
 e2b-code-interpreter
+pandas
