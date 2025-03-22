@@ -1,7 +1,10 @@
 import json
 import os
+import sys
 from openai import OpenAI
+from dotenv import load_dotenv
 
+load_dotenv()
 
 client = OpenAI(
     # This is the default and can be omitted
@@ -122,8 +125,8 @@ def is_relevant_api_endpoint(url, method, content_type, resource_type, response_
 
 
 # Example usage
-webpage = "www.foodora.cz"
-har_file = "www.foodora.cz.har"  # Replace with your HAR file path
+webpage = sys.argv[1]
+har_file = sys.argv[2]
 
 data = extract_har_data(har_file, webpage)
 

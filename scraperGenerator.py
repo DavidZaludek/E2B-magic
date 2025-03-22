@@ -56,7 +56,8 @@ system_prompt = (
     "- Required keys: `response` (summary), `action` (code/done/kill), and `code` (Python or null).\n"
     "- Use `action: code` while iterating and testing improvements.\n"
     "- Use `action: kill` if the HAR is unusable or scraping is impossible.\n"
-    "- Use `action: done` only when you're confident the scraper works and extracts live potato prices.\n\n"
+    "- Use `action: done` only when you're confident the scraper works and extracts live potato prices.\n"
+    "- truncate all prints to console to max 5000 characters to preserve context size. \n\n"
 
     "✅ Format example:\n"
     '{ \"response\": \"What you are doing\", \"action\": \"code/done/kill\", \"code\": \"...Python code...\" }'
@@ -69,7 +70,7 @@ history = [
 
 lastCode = ""
 
-MAX_INPUT_TOKENS = 100_000  # safe buffer under 128k
+MAX_INPUT_TOKENS = 300_000  # safe buffer under 128k
 
 def count_tokens(messages, model="gpt-3.5-turbo"):
     if useGemini:

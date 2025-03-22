@@ -1,0 +1,5 @@
+tiktoken
+python-dotenv
+openai
+google-genai
+e2b-code-interpreter
