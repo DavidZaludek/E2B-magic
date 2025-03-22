@@ -9,9 +9,6 @@ Automaticaly generate python webscrapers. Input is human webbrowsing activity, o
 
 [![image](https://github.com/user-attachments/assets/024af283-09d7-4700-a635-e1ec45423688)](https://davidzaludek.github.io/E2B-magic/potato_plot.html)
 
-![image](https://github.com/user-attachments/assets/982b5466-80e9-4b21-84f3-b42c3f056bd3)
-
-
 
 # Goal
 Automate web information retrieval using human interaction as starting point. This project focuses on MVP :
