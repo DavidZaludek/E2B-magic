@@ -3,11 +3,8 @@ from e2b_code_interpreter import Sandbox
 import base64
 import os
 from openai import OpenAI
-import numpy as np
-import matplotlib.pyplot as plt
 import base64
 import sys
-
 
 
 
@@ -54,6 +51,9 @@ if __name__ == "__main__":
     print("Usage: python viz.py scraper_rohlik.cz.py potato histogram")
     sys.exit(1)
 
+  if not os.path.exists('viz'):
+    os.makedirs('viz')
+
   filepath = sys.argv[1]
   commodity = sys.argv[2]
   plot_type = sys.argv[3]
@@ -80,7 +80,7 @@ if __name__ == "__main__":
     histplot_code = histplot_code.replace("python", "")
 
     print(f"running viz code: \n {histplot_code}")
-    with open("histplot_code.py", "w") as file:
+    with open("viz/histplot_code.py", "w") as file:
       file.write(histplot_code)
 
     exec_plot = sbx.run_code(histplot_code)
@@ -90,6 +90,6 @@ if __name__ == "__main__":
 
     print("writing output viz_out.png")
 
-    with open("viz_out.png", "wb") as image_file:
+    with open("viz/viz_out.png", "wb") as image_file:
       image_file.write(image_bytes)
 
