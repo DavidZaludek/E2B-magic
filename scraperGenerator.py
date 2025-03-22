@@ -115,7 +115,7 @@ def count_tokens(messages, model="gpt-3.5-turbo"):
         total_tokens += 2  # for priming/assistant start
         return total_tokens
 
-def get_llm_response_structured(conversation, max_retries=3, wait_time=15):
+def get_llm_response_structured(conversation, max_retries=4, wait_time=15):
     print("Counting token...")
     input_tokens = count_tokens(conversation, "gpt-4o" if not useGemini else None)
 
