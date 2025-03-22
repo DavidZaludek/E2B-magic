@@ -54,7 +54,7 @@ if __name__ == "__main__":
   if not os.path.exists('viz'):
     os.makedirs('viz')
 
-  filepath = sys.argv[1]
+  file_path = sys.argv[1]
   commodity = sys.argv[2]
   plot_type = sys.argv[3]
 
@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
   client = OpenAI()
 
-  with open(filepath, 'r') as file:
+  with open(file_path, 'r') as file:
     code_dump = file.read()
 
   print(f"Executing: \n {code_dump}")
@@ -75,7 +75,7 @@ if __name__ == "__main__":
 
     text_dump = exec.logs.stdout[0]
 
-    histplot_code = gen_histplot_code(text_dump, commodity = "potato", client = client, plot_type=plot_type)
+    histplot_code = gen_histplot_code(text_dump, commodity = commodity, client = client, plot_type = plot_type)
     histplot_code = histplot_code.replace("```", "")
     histplot_code = histplot_code.replace("python", "")
 
@@ -88,8 +88,8 @@ if __name__ == "__main__":
     hist = exec_plot.logs.stdout[0]
     image_bytes = base64.b64decode(hist)
 
-    print("writing output viz_out.png")
+    print(f"writing output viz/{file_path}_out.png")
 
-    with open("viz/viz_out.png", "wb") as image_file:
+    with open(f"viz/{file_path}_out.png", "wb") as image_file:
       image_file.write(image_bytes)
 
