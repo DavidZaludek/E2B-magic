@@ -5,6 +5,10 @@ Demo : https://www.loom.com/share/b6e00ea4e50b4d00a8b6e5c36aff8c40?sid=05194071-
 Automaticaly generate python webscrapers. Input is human webbrowsing activity, output is functioning python webscraper. Uses LLMs and E2B sandbox to iteratively create the result. Zero human coding needing, create a web-scraper for anything under a minute !
 ![rohlik drawio (2)](https://github.com/user-attachments/assets/e6c00bc5-e921-4e4f-849d-11763880614d)
 
+## 🥔 Interactive Potato Price Chart
+
+[![Potato Chart Preview](https://raw.githubusercontent.com/DavidZaludek/E2B-magic/main/preview.png)](https://davidzaludek.github.io/E2B-magic/potato_plot.html)
+
 ![image](https://github.com/user-attachments/assets/982b5466-80e9-4b21-84f3-b42c3f056bd3)
 
 
